@@ -26,3 +26,5 @@ package-lock.json
 
 # Obsidian
 _posts/.obsidian
+_posts/template
+.DS_Store
