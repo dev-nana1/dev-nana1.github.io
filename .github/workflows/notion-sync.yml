@@ -20,7 +20,7 @@ jobs:
           notion-token: ${{ secrets.NOTION_TOKEN }}
           notion-database-id: ${{ vars.NOTION_TO_JEKYLL_DATABASE_ID }}
           publish-to-posts: ${{ vars.NOTION_TO_JEKYLL_PUBLISH_TO_POSTS }} # true면 _posts/에 저장
-          relative-date: ${{ vars.NOTION_TO_JEKYLL_RELATIVE_DATE }}       # 파일 날짜 산정
+          relative-date: -1
           site-url: "https://dev-nana1.github.io"
           assets-dir: "assets/postimages"
 
